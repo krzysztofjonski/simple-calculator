@@ -69,7 +69,6 @@ def ask_for_an_operator(force_valid_input):
 
 
 def calc(operator, a, b):
-    # if operator:
     if operator == '+':
         result = a + b
         return result
@@ -87,8 +86,6 @@ def calc(operator, a, b):
             print("Error: Division by zero")
     else:
         return None
-    # else:
-    #     return None
 
 
 # print(calc('z', 4, 0))
